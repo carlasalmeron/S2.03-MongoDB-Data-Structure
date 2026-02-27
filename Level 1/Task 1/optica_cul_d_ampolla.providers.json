@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "65f1a2b3c4d5e6f7a8b9c001"
+  },
+  "name": "Optical World S.A.",
+  "address": {
+    "street": "Polígono Industrial Norte",
+    "number": 45,
+    "floor": 0,
+    "door": "A",
+    "city": "Madrid",
+    "postal_code": "28001",
+    "country": "Spain"
+  },
+  "phone": "912344556",
+  "fax": "912344557",
+  "nif": "A12345678"
+},
+{
+  "_id": {
+    "$oid": "65f1a2b3c4d5e6f7a8b9c002"
+  },
+  "name": "Lentes del Mediterráneo",
+  "address": {
+    "street": "Avenida de la Mar",
+    "number": 12,
+    "floor": 2,
+    "door": "1",
+    "city": "Valencia",
+    "postal_code": "46002",
+    "country": "Spain"
+  },
+  "phone": "963445566",
+  "fax": "963445567",
+  "nif": "B87654321"
+}]

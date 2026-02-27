@@ -1,0 +1,88 @@
+[{
+  "_id": {
+    "$oid": "69a20b9d2135eb26dc513730"
+  },
+  "name": "Carla Salmerón",
+  "address": {
+    "street": "Carrer Aquitectura",
+    "number": 26,
+    "floor": 5,
+    "door": "4",
+    "city": "L'Hospitalet de Llobregat",
+    "postal_code": "08908",
+    "country": "Spain"
+  },
+  "phone": "678921235",
+  "email": "carlasalmeron@gmail.com",
+  "register_date": {
+    "$date": "2025-09-23T00:00:00.000Z"
+  },
+  "last_shoppings": [
+    {
+      "brand": "Rayban",
+      "graduation": {
+        "left_eye": 2.3,
+        "right_eye": 2
+      },
+      "glass_color": {
+        "left_color": "Transparent",
+        "right_color": "Transparent"
+      },
+      "frame_type": "Metallic",
+      "frame_color": "Silver",
+      "price": 127,
+      "employee_name": "Marta López",
+      "sale_date": {
+        "$date": "2026-02-27T10:30:00.000Z"
+      },
+      "provider_id": {
+        "$oid": "65f1a2b3c4d5e6f7a8b9c001"
+      }
+    }
+  ],
+  "recommended_by": null
+},
+{
+  "_id": {
+    "$oid": "69a20b9d2135eb26dc513731"
+  },
+  "name": "Juan García",
+  "address": {
+    "street": "Calle Mayor",
+    "number": 10,
+    "floor": 0,
+    "door": "B",
+    "city": "Barcelona",
+    "postal_code": "08001",
+    "country": "Spain"
+  },
+  "phone": "600111222",
+  "email": "juan.garcia@gmail.com",
+  "register_date": {
+    "$date": "2024-01-15T09:00:00.000Z"
+  },
+  "last_shoppings": [
+    {
+      "brand": "Oakley",
+      "graduation": {
+        "left_eye": 1.5,
+        "right_eye": 1.5
+      },
+      "glass_color": {
+        "left_color": "Black",
+        "right_color": "Black"
+      },
+      "frame_type": "Pasta",
+      "frame_color": "Blue",
+      "price": 185.5,
+      "employee_name": "Pedro Gómez",
+      "sale_date": {
+        "$date": "2024-02-20T17:15:00.000Z"
+      },
+      "provider_id": {
+        "$oid": "65f1a2b3c4d5e6f7a8b9c002"
+      }
+    }
+  ],
+  "recommended_by": "Carla Salmerón"
+}]
