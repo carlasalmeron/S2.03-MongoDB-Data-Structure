@@ -1,0 +1,88 @@
+[{
+  "_id": {
+    "$oid": "65e1f1a2b3c4d5e6f7a8b001"
+  },
+  "customer": {
+    "_id": {
+      "$oid": "65e1f1a2b3c4d5e6f7a8b111"
+    },
+    "name": "Carla",
+    "surname": "Salmerón"
+  },
+  "date": {
+    "$date": "2024-03-01T20:30:00.000Z"
+  },
+  "type_order": {
+    "delivery": {
+      "street": "Calle Arquitectura",
+      "number": 26,
+      "floor": "5-4",
+      "city": "Barcelona",
+      "province": "Barcelona",
+      "phone_number": 600123456,
+      "zip_code": 8015,
+      "worker_id": {
+        "$oid": "65e1f1a2b3c4d5e6f7a8b222"
+      }
+    }
+  },
+  "products": {
+    "pizza": [
+      {
+        "category": "Clásicas",
+        "pizza_order": {
+          "_id": {
+            "$oid": "65e1f1a2b3c4d5e6f7a8b331"
+          },
+          "name": "Margarita",
+          "description": "Tomate, mozzarella y albahaca",
+          "photo": "margarita.jpg",
+          "price": 12.5
+        }
+      }
+    ],
+    "hamburger": [
+      {
+        "_id": {
+          "$oid": "65e1f1a2b3c4d5e6f7a8b332"
+        },
+        "name": "Cheeseburger",
+        "description": "Carne 100% vacuno y queso",
+        "photo": "cheese.jpg",
+        "price": 8.95
+      }
+    ],
+    "drink": [
+      {
+        "_id": {
+          "$oid": "65e1f1a2b3c4d5e6f7a8b333"
+        },
+        "name": "Coke",
+        "description": "Lata 33cl",
+        "photo": "coke.jpg",
+        "price": 2.5
+      }
+    ]
+  },
+  "price": 23.95,
+  "order_information": "Llamar al timbre de la derecha",
+  "store": {
+    "_id": {
+      "$oid": "65e1f1a2b3c4d5e6f7a8b444"
+    },
+    "adress": "Av. Diagonal 100",
+    "zip_code": 8018,
+    "city": "Barcelona",
+    "province": "Barcelona",
+    "worker": {
+      "_id": {
+        "$oid": "65e1f1a2b3c4d5e6f7a8b555"
+      },
+      "name": "Juan",
+      "surname": "Lopez",
+      "nif": "12345678Z",
+      "phone_number": 611222333,
+      "section": "Cocinero"
+    }
+  }
+}]

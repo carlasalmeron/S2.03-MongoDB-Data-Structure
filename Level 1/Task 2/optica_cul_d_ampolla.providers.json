@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "65f1a2b3c4d5e6f7a8b9c001"
+  },
+  "name": "Googles Associated SL",
+  "nif": "B12345678",
+  "phone": "934567890",
+  "fax": "934567891",
+  "address": {
+    "street": "Avinguda Diagonal",
+    "number": 450,
+    "floor": "3",
+    "door": "1",
+    "city": "Barcelona",
+    "postal_code": "08006",
+    "country": "Spain"
+  }
+},
+{
+  "_id": {
+    "$oid": "65f1a2b3c4d5e6f7a8b9c002"
+  },
+  "name": "Rayban Wholesale",
+  "nif": "A87654321",
+  "phone": "912345678",
+  "fax": "912345679",
+  "address": {
+    "street": "Calle Mayor",
+    "number": 10,
+    "floor": "0",
+    "door": "A",
+    "city": "Madrid",
+    "postal_code": "28001",
+    "country": "Spain"
+  }
+}]

@@ -1,0 +1,58 @@
+[{
+  "_id": {
+    "$oid": "407f1f087823456789123401"
+  },
+  "name": "Carla Salmerón",
+  "address": {
+    "zip_code": "08010",
+    "street": "Right Street",
+    "number": 123
+  },
+  "phone": "678921235",
+  "email": "carlasalmeron@gmail.com",
+  "register_date": {
+    "$date": "2023-09-23T10:00:00.000Z"
+  },
+  "recommended_by": null,
+  "sales_history": [
+    {
+      "glass_id": {
+        "$oid": "507f1f087823456789123452"
+      },
+      "employee_name": "Marta López",
+      "sale_date": {
+        "$date": "2024-03-27T10:30:00.000Z"
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a45faa2135eb26dc513745"
+  },
+  "name": "Juan García",
+  "address": {
+    "zip_code": "08001",
+    "street": "Calle Balmes",
+    "number": 45
+  },
+  "phone": "600111222",
+  "email": "juan@example.com",
+  "register_date": {
+    "$date": "2024-01-15T09:00:00.000Z"
+  },
+  "recommended_by": {
+    "$oid": "407f1f087823456789123401"
+  },
+  "sales_history": [
+    {
+      "glass_id": {
+        "$oid": "507f1f087823456789123451"
+      },
+      "employee_name": "Pedro Gómez",
+      "sale_date": {
+        "$date": "2024-02-20T17:15:00.000Z"
+      }
+    }
+  ]
+}]

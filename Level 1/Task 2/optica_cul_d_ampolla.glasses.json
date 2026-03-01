@@ -1,0 +1,40 @@
+[{
+  "_id": {
+    "$oid": "507f1f087823456789123451"
+  },
+  "brand": "Google #",
+  "graduation": {
+    "left": 2.3,
+    "right": 2
+  },
+  "frame_type": "Metallic",
+  "frame_color": "Black",
+  "glass_color": {
+    "left": "Transparent",
+    "right": "Transparent"
+  },
+  "price": 105.75,
+  "supplier_id": {
+    "$oid": "65f1a2b3c4d5e6f7a8b9c001"
+  }
+},
+{
+  "_id": {
+    "$oid": "507f1f087823456789123452"
+  },
+  "brand": "Rayban Classic",
+  "graduation": {
+    "left": 1.5,
+    "right": 1.5
+  },
+  "frame_type": "Pasta",
+  "frame_color": "Brown",
+  "glass_color": {
+    "left": "Green",
+    "right": "Green"
+  },
+  "price": 127,
+  "supplier_id": {
+    "$oid": "65f1a2b3c4d5e6f7a8b9c002"
+  }
+}]
