@@ -95,7 +95,7 @@
 				{
 					"id": "dbe124e7-1ecc-4922-8b2b-2dab9ec2733f",
 					"name": "graduation",
-					"datatype": "string",
+					"datatype": "double",
 					"param": "",
 					"pk": false,
 					"nn": true,
@@ -145,7 +145,7 @@
 				},
 				{
 					"id": "0cb13a9b-82ad-42aa-8f61-abea0bfcdf73",
-					"name": "bough_by",
+					"name": "bought_by",
 					"datatype": "f78fb9b7-862e-4f96-be19-51420ad8564a",
 					"param": "",
 					"pk": false,
@@ -287,7 +287,7 @@
 				},
 				{
 					"id": "e482e457-44a2-4993-955a-5bfbbb517851",
-					"name": "adress_provider",
+					"name": "address_provider",
 					"datatype": "7a13a402-cdbd-4d46-9bf4-5a8509744183",
 					"param": "",
 					"pk": false,
@@ -515,7 +515,7 @@
 				},
 				{
 					"id": "da8f9b79-9afe-4c11-88ce-8db68173e1dc",
-					"name": "adress_customer",
+					"name": "address_customer",
 					"datatype": "2cd7311e-76d1-4479-a8c2-425266d09e92",
 					"param": "",
 					"pk": false,
@@ -590,7 +590,7 @@
 				{
 					"id": "28e9f638-ef82-466d-855f-4e4b778538be",
 					"name": "number",
-					"datatype": "double",
+					"datatype": "int",
 					"param": "",
 					"pk": false,
 					"nn": true,
@@ -607,7 +607,7 @@
 				{
 					"id": "f76c3fc3-8a35-42fb-9e06-691c120f97ee",
 					"name": "floor",
-					"datatype": "double",
+					"datatype": "int",
 					"param": "",
 					"pk": false,
 					"nn": true,
@@ -675,7 +675,7 @@
 				{
 					"id": "b2080de2-a9a6-4f36-afa0-d2d7dc1c67f0",
 					"name": "zip_code",
-					"datatype": "double",
+					"datatype": "string",
 					"param": "",
 					"pk": false,
 					"nn": true,
@@ -743,7 +743,7 @@
 				{
 					"id": "26bf822c-0c38-4c7a-bf8e-f183ad0fa5fd",
 					"name": "number",
-					"datatype": "double",
+					"datatype": "int",
 					"param": "",
 					"pk": false,
 					"nn": true,
@@ -760,7 +760,7 @@
 				{
 					"id": "205aa4fb-338a-4d25-8293-cdbb6dd002e0",
 					"name": "floor",
-					"datatype": "double",
+					"datatype": "int",
 					"param": "",
 					"pk": false,
 					"nn": true,
@@ -828,7 +828,7 @@
 				{
 					"id": "dac4bc53-2d4d-4140-bba5-2ec847acfb1f",
 					"name": "zip_code",
-					"datatype": "double",
+					"datatype": "string",
 					"param": "",
 					"pk": false,
 					"nn": true,
@@ -990,7 +990,7 @@
 		"def_collation": "",
 		"def_others": "",
 		"connectionVersion": "",
-		"lastSaved": 1772380405775
+		"lastSaved": 1772715710240
 	},
 	"otherObjects": {},
 	"diagrams": {
@@ -1011,7 +1011,7 @@
 					"x": 90,
 					"y": 85,
 					"gHeight": 189,
-					"gWidth": 217,
+					"gWidth": 222,
 					"color": "#ffffff",
 					"background": "#e91e63",
 					"resized": false,
@@ -1034,7 +1034,7 @@
 					"x": 443,
 					"y": 103,
 					"gHeight": 135,
-					"gWidth": 244,
+					"gWidth": 251,
 					"color": "transparent",
 					"background": "transparent",
 					"resized": false,
@@ -1080,7 +1080,7 @@
 					"x": 801,
 					"y": 349,
 					"gHeight": 153,
-					"gWidth": 249,
+					"gWidth": 257,
 					"color": "transparent",
 					"background": "transparent",
 					"resized": false,
@@ -1103,7 +1103,7 @@
 					"x": 819,
 					"y": 110,
 					"gHeight": 153,
-					"gWidth": 196,
+					"gWidth": 197,
 					"color": "transparent",
 					"background": "transparent",
 					"resized": false,
@@ -1126,7 +1126,7 @@
 					"x": 1219,
 					"y": 475,
 					"gHeight": 153,
-					"gWidth": 196,
+					"gWidth": 203,
 					"color": "transparent",
 					"background": "transparent",
 					"resized": false,
